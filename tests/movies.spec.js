@@ -42,6 +42,13 @@ describe(' All directors - getAllDirectors', () => {
   });
 });
 
+// 1st solo attempt
+// function getAllDirectors (arr) {
+//   return arr.map ("director") => {
+//     return director 
+//   }
+// }
+
 /*
  * 2. howManyMovies
  */
