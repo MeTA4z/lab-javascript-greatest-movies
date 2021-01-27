@@ -85,14 +85,21 @@ function orderByYear (array) {
 //     let sortedArray = [...arr].sort((a, b) => {
 //         return (a.title.localeCompare(b.title)) //either 0, 1, or -1
 //     })
-//     let first20titles = sortedArray.map(item => {
+//     let first20titles = sortedArray.slice(0, 20).map(item => {
 //         return item.title
 //     })
 
-//     return first20titles.slice(0, 20)
+//     return first20titles
 
 
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
+
+let testString = "1h 36min"
+function turnHoursToMinutes(testString) {
+    let hours = parseInt (testString)
+    return hours
+
+}
 
 // BONUS - Iteration 8: Best yearly rate average - Best yearly rate average

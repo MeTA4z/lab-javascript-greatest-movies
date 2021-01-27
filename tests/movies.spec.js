@@ -42,7 +42,7 @@ describe(' All directors - getAllDirectors', () => {
   });
 });
 
-// 1st solo attempt
+// 1st solo attempt (wrong)
 // function getAllDirectors (arr) {
 //   return arr.map ("director") => {
 //     return director 
